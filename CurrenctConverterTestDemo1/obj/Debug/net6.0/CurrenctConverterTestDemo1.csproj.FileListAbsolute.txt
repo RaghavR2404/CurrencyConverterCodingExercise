@@ -107,3 +107,4 @@ C:\Users\bf7195\source\repos\CurrencyConverter\CurrenctConverterTestDemo1\bin\De
 C:\Users\bf7195\source\repos\CurrencyConverter\CurrenctConverterTestDemo1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\bf7195\source\repos\CurrencyConverter\CurrenctConverterTestDemo1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\bf7195\source\repos\CurrencyConverter\CurrenctConverterTestDemo1\bin\Debug\net6.0\Moq.dll
+C:\Users\bf7195\source\repos\CurrencyConverter\CurrenctConverterTestDemo1\bin\Debug\net6.0\NSubstitute.dll
