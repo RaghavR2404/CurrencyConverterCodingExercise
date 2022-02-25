@@ -4,8 +4,9 @@ namespace CurrencyConverter
 {
     public class CheckInvalid : IUnknown
     {
-        Rates rates;
-       public CheckInvalid(Rates _rates)
+        //Rates rates;
+        IAllConversions rates;
+       public CheckInvalid(IAllConversions _rates)
         {
             rates = _rates;
         }

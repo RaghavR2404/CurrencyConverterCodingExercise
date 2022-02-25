@@ -4,11 +4,11 @@ namespace CurrencyConverter
 {
     public class CurrencyConvert : ICalculate
     {
-        Rates rates;
-        CheckInvalid checkInvalid;
+        IAllConversions rates;
+        IUnknown checkInvalid;
         
        
-         public CurrencyConvert(Rates _rates,CheckInvalid _checkInvalid)
+         public CurrencyConvert(IAllConversions _rates,IUnknown _checkInvalid)
         {
          rates  = _rates;   
          checkInvalid = _checkInvalid; 

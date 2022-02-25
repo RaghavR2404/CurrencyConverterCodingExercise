@@ -1,10 +1,10 @@
 ﻿using CurrencyConverter;
 using System;
 using Xunit;
-
+using NSubstitute;
 namespace CurrenctConverterTestDemo1
 {
-    public class RatesTest:IClassFixture<Rates> 
+    public class RatesTest:IClassFixture<Rates>
     {
 
         Rates rates;

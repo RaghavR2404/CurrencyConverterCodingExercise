@@ -1,17 +1,19 @@
 using CurrencyConverter;
 using Xunit;
+using NSubstitute;
 namespace CurrenctConverterTestDemo1
 {
     public class CurrencyConvertTest
     {
-
+        
+    
         CurrencyConvert convert = new CurrencyConvert(new Rates(), new CheckInvalid(new Rates()));
         [Fact]
         public void CheckExchangedAmountIsNotMatching()
         {
             //fail
             decimal expected = 12m;
-            decimal actual = convert.Calculate("EUR", "DKK", 1);
+            decimal actual = convert.Calculate("EUR", "DKK",1);
             Assert.NotEqual(expected, actual);
         }
         [Fact]
@@ -19,7 +21,8 @@ namespace CurrenctConverterTestDemo1
         {
             //pass
             decimal expected = 7.4394m;
-            decimal actual = convert.Calculate("EUR", "DKK", 1);
+            decimal actual =  convert.Calculate("EUR", "DKK", 1);
+            
             Assert.Equal(expected, actual);
         }
         [Theory]
