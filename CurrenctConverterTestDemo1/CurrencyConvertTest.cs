@@ -5,24 +5,27 @@ namespace CurrenctConverterTestDemo1
 {
     public class CurrencyConvertTest
     {
-        
-    
-        CurrencyConvert convert = new CurrencyConvert(new Rates(), new CheckInvalid(new Rates()));
-        [Fact]
-        public void CheckExchangedAmountIsNotMatching()
+        IAllConversions allConversions;
+        IUnknown unknown;
+        CurrencyConvert convert;
+        public CurrencyConvertTest()
+            {
+            allConversions = new Rates();
+            unknown = new CheckInvalid(allConversions);
+            convert = new CurrencyConvert(allConversions,unknown);
+            }
+          [Theory]
+          [MemberData(nameof(Expected.ExpectedValue1),MemberType =typeof(Expected))]
+        public void CheckExchangedAmountIsNotMatching(string currency1,string currency2,decimal amount,decimal expected)
         {
-            //fail
-            decimal expected = 12m;
-            decimal actual = convert.Calculate("EUR", "DKK",1);
+            decimal actual = convert.Calculate(currency1, currency2,amount);
             Assert.NotEqual(expected, actual);
         }
-        [Fact]
-        public void CheckExchangedAmountIsMatching()
+        [Theory]
+        [MemberData(nameof(Expected.ExpectedValue2), MemberType = typeof(Expected))]
+        public void CheckExchangedAmountIsMatching(string currency1, string currency2, decimal amount, decimal expected)
         {
-            //pass
-            decimal expected = 7.4394m;
-            decimal actual =  convert.Calculate("EUR", "DKK", 1);
-            
+            decimal actual =  convert.Calculate(currency1,currency2,amount);
             Assert.Equal(expected, actual);
         }
         [Theory]
@@ -44,13 +47,13 @@ namespace CurrenctConverterTestDemo1
         [Theory]
         [InlineData("EUR","DNN",1)]
         [InlineData("GBR","USD",22)]
-        public void CheckUnknownTypeCurrency1(string currency1,string currency2,decimal amount)
+        public void CheckUnknownTypeCurrencyInvalid(string currency1,string currency2,decimal amount)
         {
             Assert.Throws<System.Exception>(() =>  convert.Calculate(currency1, currency2, amount));
         }
         [Theory]
         [InlineData("EUR", "USD", 11)]
-        public void CheckUnknownTypeCurrency2(string currency1, string currency2, decimal amount)
+        public void CheckUnknownTypeCurrencyValid(string currency1, string currency2, decimal amount)
         {
            var ex =convert.Calculate(currency1, currency2, amount);
            Assert.IsNotType<System.Exception>(() => ex);

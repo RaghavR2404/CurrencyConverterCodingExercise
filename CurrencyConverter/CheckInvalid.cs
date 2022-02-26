@@ -3,8 +3,7 @@
 namespace CurrencyConverter
 {
     public class CheckInvalid : IUnknown
-    {
-        //Rates rates;
+    { 
         IAllConversions rates;
        public CheckInvalid(IAllConversions _rates)
         {

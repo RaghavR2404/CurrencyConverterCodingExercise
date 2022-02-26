@@ -6,7 +6,6 @@ namespace CurrenctConverterTestDemo1
 {
     public class RatesTest:IClassFixture<Rates>
     {
-
         Rates rates;
         public RatesTest(Rates _rates)
         {

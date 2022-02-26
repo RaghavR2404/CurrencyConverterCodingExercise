@@ -6,14 +6,13 @@ namespace CurrencyConverter
     {
         IAllConversions rates;
         IUnknown checkInvalid;
-        
-       
-         public CurrencyConvert(IAllConversions _rates,IUnknown _checkInvalid)
+
+
+        public CurrencyConvert(IAllConversions _rates, IUnknown _checkInvalid)
         {
-         rates  = _rates;   
-         checkInvalid = _checkInvalid; 
-        }
-        
+            rates = _rates;
+            checkInvalid = _checkInvalid;
+        } 
         public decimal Calculate(string currency1, string currency2, decimal amount)
         {
             
