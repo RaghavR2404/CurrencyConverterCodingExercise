@@ -1,16 +1,17 @@
 ﻿using CurrencyConverter;
-using System;
 using Xunit;
-using NSubstitute;
+
 namespace CurrenctConverterTestDemo1
 {
-    public class RatesTest:IClassFixture<Rates>
+    public class RatesTest : IClassFixture<Rates>
     {
-        Rates rates;
+        private Rates rates;
+
         public RatesTest(Rates _rates)
         {
             rates = _rates;
         }
+
         [Fact]
         public void CheckCurrencyPairs()
         {

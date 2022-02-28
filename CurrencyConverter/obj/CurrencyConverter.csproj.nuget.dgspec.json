@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
+        "projectName": "CurrencyConverter",
+        "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
+        "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\obj\\",
+=======
     "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
         "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\obj\\",
+>>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bf7195\\AppData\\Roaming\\NuGet\\NuGet.Config",

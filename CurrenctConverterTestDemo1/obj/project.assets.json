@@ -6713,11 +6713,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+      "projectName": "CurrenctConverterTestDemo1",
+      "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+      "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
       "projectName": "CurrenctConverterTestDemo1",
       "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
       "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\obj\\",
+>>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bf7195\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6736,8 +6744,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
+            "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {
+              "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj"
+=======
             "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {
               "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj"
+>>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
             }
           }
         }

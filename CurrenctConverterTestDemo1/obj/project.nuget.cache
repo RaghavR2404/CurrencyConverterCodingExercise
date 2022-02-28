@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "CkeV5v8H+dfcQMLPyx2H4U9pxi3LOtyWlmwCrHnO3MCdnkRcwm3o/WKa2fCUm/DvhW+5j7OtO6BRUhW+G52d+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+=======
   "dgSpecHash": "it+v8CP5ynXyAkWFpVP5QwEuLuB9Pcy1uGTg3crWXGPQpEHF5MvBHHcJsvCsjBHe8o0igKUqigiZOUZkAvy9mA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+>>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
   "expectedPackageFiles": [
     "C:\\Users\\bf7195\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\bf7195\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
