@@ -1,18 +1,8 @@
-<<<<<<< HEAD
 ﻿namespace CurrencyConverter
 {
     public class InputProcessor
     {
         public Inputs Capture()
-=======
-﻿using System;
-
-namespace CurrencyConverter
-{
-   public class InputProcessor
-    {
-        public  Inputs Capture()
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
         {
             Inputs inputs = new Inputs();
             Console.WriteLine("Enter 1st Currency");
@@ -24,8 +14,4 @@ namespace CurrencyConverter
             return inputs;
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040

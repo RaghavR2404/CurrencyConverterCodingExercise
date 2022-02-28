@@ -6,18 +6,12 @@ namespace CurrenctConverterTestDemo1
 {
     public class CurrencyConvertTest
     {
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
         /*  IAllConversions conversions = Substitute.For<IAllConversions>();
           IUnknown unknown = Substitute.For<IUnknown>();
           CurrencyConvert convert;
           public CurrencyConvertTest()
           {
               convert = new CurrencyConvert(conversions,unknown);
-<<<<<<< HEAD
           }
         */
 
@@ -26,15 +20,6 @@ namespace CurrenctConverterTestDemo1
         private InputValidator inputValidator;
         private CurrencyConvert convert;
 
-=======
-
-          }
-        */
-
-        IAllConversionsRepository allConversions;
-        IUnknown unknown;
-        CurrencyConvert convert;
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
         public CurrencyConvertTest()
         {
             
@@ -65,7 +50,6 @@ namespace CurrenctConverterTestDemo1
             decimal expected = 7.4394m;
             allConversions.GetConversionRates().Returns(new System.Collections.Generic.Dictionary<string, decimal>
             {
-<<<<<<< HEAD
                 {"EUR", 7.4394m },
                 {"DKK",1 }
             });
@@ -74,30 +58,6 @@ namespace CurrenctConverterTestDemo1
 
             convert = new CurrencyConvert(allConversions,unknown);
             var actual = convert.Calculate(currency1, currency2, amount);
-=======
-            allConversions = Substitute.For<IAllConversionsRepository>(); 
-            unknown = new CheckInvalid(allConversions);
-            convert = new CurrencyConvert(allConversions,unknown);
-            }
-     
-          [Theory]
-          [MemberData(nameof(Expected.ExpectedValue1),MemberType =typeof(Expected))]
-        public void CheckExchangedAmountIsNotMatching(string currency1,string currency2,decimal amount,decimal expected)
-        {
-            allConversions.GetConversionRates().Returns(new System.Collections.Generic.Dictionary<string, decimal>
-            {
-                {"EUR",12m }
-            });
-
-            decimal actual = convert.Calculate(currency1, currency2,amount);
-            Assert.NotEqual(expected, actual);
-        }
-        [Theory]
-        [MemberData(nameof(Expected.ExpectedValue2), MemberType = typeof(Expected))]
-        public void CheckExchangedAmountIsMatching(string currency1, string currency2, decimal amount, decimal expected)
-        {
-            decimal actual =  convert.Calculate(currency1,currency2,amount);
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
             Assert.Equal(expected, actual);
 
         }

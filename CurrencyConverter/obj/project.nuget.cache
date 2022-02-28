@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "EqXpiUFl/nwZlDHuhMYDJuPMK6QPRgrlC8xwQlicVpMFHEB4WtnkpbXf822ZUJlZrD2loiv4ShG+D31VAJh5nQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
-=======
-  "dgSpecHash": "GaGciPLgOYQHhRS2iIOMDtdDkmLvSu6YYno93cpRCpIdrqCVEheZV2SYI0Q/gkfPejJ8zcQNMPHIy0/9M9wCSw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
->>>>>>> 6b1115edc8029231c6a83bb7f351516d1e119040
   "expectedPackageFiles": [
     "C:\\Users\\bf7195\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\bf7195\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
