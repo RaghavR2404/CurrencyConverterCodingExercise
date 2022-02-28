@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace CurrencyConverter
 {
-    public interface IUnknown
+    public interface IInputValidator
     {
-        public bool IsUnknown(string currency);
+        public void Validate(decimal amount);
     }
-
 }

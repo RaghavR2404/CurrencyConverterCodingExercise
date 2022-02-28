@@ -5498,11 +5498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrencyConverter\\CurrencyConverter.csproj",
+      "projectUniqueName": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
       "projectName": "CurrencyConverter",
-      "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrencyConverter\\CurrencyConverter.csproj",
+      "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj",
       "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrencyConverter\\obj\\",
+      "outputPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bf7195\\AppData\\Roaming\\NuGet\\NuGet.Config",

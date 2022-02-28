@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CurrenctConverterTestDemo1
 {
@@ -22,9 +19,6 @@ namespace CurrenctConverterTestDemo1
 
 
         //can get value from external api by passing parameters
-
-
-
 
     }
 

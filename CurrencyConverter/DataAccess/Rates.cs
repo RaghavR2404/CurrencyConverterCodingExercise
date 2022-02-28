@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CurrencyConverter
 {
-    public class Rates : IAllConversions
+    public class Rates : IAllConversionsRepository
     {
      
 
         //key value pair for 1 unit of each curr and equivalent amount in Dkk
-        public Dictionary<string, decimal> ConversionRates()
+        public Dictionary<string, decimal> GetConversionRates()
         {
             var conversionRatesInDkk = new Dictionary<String, decimal>();
            

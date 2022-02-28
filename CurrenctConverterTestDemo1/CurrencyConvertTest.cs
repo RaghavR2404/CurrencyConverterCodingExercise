@@ -5,19 +5,37 @@ namespace CurrenctConverterTestDemo1
 {
     public class CurrencyConvertTest
     {
-        IAllConversions allConversions;
+
+
+        /*  IAllConversions conversions = Substitute.For<IAllConversions>();
+          IUnknown unknown = Substitute.For<IUnknown>();
+          CurrencyConvert convert;
+          public CurrencyConvertTest()
+          {
+              convert = new CurrencyConvert(conversions,unknown);
+
+          }
+        */
+
+        IAllConversionsRepository allConversions;
         IUnknown unknown;
         CurrencyConvert convert;
         public CurrencyConvertTest()
             {
-            allConversions = new Rates();
+            allConversions = Substitute.For<IAllConversionsRepository>(); 
             unknown = new CheckInvalid(allConversions);
             convert = new CurrencyConvert(allConversions,unknown);
             }
+     
           [Theory]
           [MemberData(nameof(Expected.ExpectedValue1),MemberType =typeof(Expected))]
         public void CheckExchangedAmountIsNotMatching(string currency1,string currency2,decimal amount,decimal expected)
         {
+            allConversions.GetConversionRates().Returns(new System.Collections.Generic.Dictionary<string, decimal>
+            {
+                {"EUR",12m }
+            });
+
             decimal actual = convert.Calculate(currency1, currency2,amount);
             Assert.NotEqual(expected, actual);
         }

@@ -6713,11 +6713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+      "projectUniqueName": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
       "projectName": "CurrenctConverterTestDemo1",
-      "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+      "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
       "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrenctConverterTestDemo1\\obj\\",
+      "outputPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bf7195\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6736,8 +6736,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrencyConverter\\CurrencyConverter.csproj": {
-              "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverter\\CurrencyConverter\\CurrencyConverter.csproj"
+            "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj": {
+              "projectPath": "C:\\Users\\bf7195\\Source\\Repos\\CurrencyConverterCodingExercise1\\CurrencyConverter\\CurrencyConverter.csproj"
             }
           }
         }

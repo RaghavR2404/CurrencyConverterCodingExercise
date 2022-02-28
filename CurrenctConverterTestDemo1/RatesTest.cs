@@ -15,7 +15,7 @@ namespace CurrenctConverterTestDemo1
         public void CheckCurrencyPairs()
         {
             int min = 0;
-            Assert.True(rates.ConversionRates().Count > min);
+            Assert.True(rates.GetConversionRates().Count > min);
         }
     }
 }
