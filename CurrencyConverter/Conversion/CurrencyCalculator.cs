@@ -1,11 +1,11 @@
 ﻿namespace CurrencyConverter
 {
-    public class CurrencyConvert : ICalculate
+    public class CurrencyCalculator : ICalculate
     {
         private IAllConversionsRepository _rates;
         private IUnknown _checkInvalid;
 
-        public CurrencyConvert(IAllConversionsRepository rates, IUnknown checkInvalid)
+        public CurrencyCalculator(IAllConversionsRepository rates, IUnknown checkInvalid)
         {
             _rates = rates;
             _checkInvalid = checkInvalid;

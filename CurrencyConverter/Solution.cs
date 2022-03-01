@@ -8,8 +8,8 @@
             Rates rates = new Rates();
             InputProcessor inputProcessor = new InputProcessor();
             InputValidator validator = new InputValidator();
-            CheckInvalid checkInvalid = new CheckInvalid(rates);
-            CurrencyConvert currencyConvert = new CurrencyConvert(rates, checkInvalid);
+            InvalidCurrency checkInvalid = new InvalidCurrency(rates);
+            CurrencyCalculator currencyConvert = new CurrencyCalculator(rates, checkInvalid);
             Inputs userInput = inputProcessor.Capture();
             validator.Validate(userInput.Amount);
             Output output = new Output(currencyConvert);

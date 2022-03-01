@@ -2,13 +2,12 @@
 {
     public class Output
     {
-        private CurrencyConvert _currencyConvert;
+        private CurrencyCalculator _currencyConvert;
 
-        public Output(CurrencyConvert currencyConvert)
+        public Output(CurrencyCalculator currencyConvert)
         {
             _currencyConvert = currencyConvert;
         }
-
         public decimal Result(string Currency1, string Currency2, decimal amount)
         {
             decimal exchangedAmount = 0;
