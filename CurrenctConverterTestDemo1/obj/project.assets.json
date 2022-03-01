@@ -6713,9 +6713,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
-      "projectName": "CurrenctConverterTestDemo1",
-      "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrenctConverterTestDemo1.csproj",
+      "projectUniqueName": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrencyConverterTestDemo1.csproj",
+      "projectName": "CurrencyConverterTestDemo1",
+      "projectPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\CurrencyConverterTestDemo1.csproj",
       "packagesPath": "C:\\Users\\bf7195\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bf7195\\source\\repos\\CurrencyConverterCodingExercise1\\CurrenctConverterTestDemo1\\obj\\",
       "projectStyle": "PackageReference",

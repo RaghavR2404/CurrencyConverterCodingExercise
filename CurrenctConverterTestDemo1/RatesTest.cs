@@ -1,7 +1,7 @@
 ﻿using CurrencyConverter;
 using Xunit;
 
-namespace CurrenctConverterTestDemo1
+namespace CurrencyConverterTestDemo1
 {
     public class RatesTest : IClassFixture<Rates>
     {

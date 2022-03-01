@@ -2,18 +2,18 @@
 {
     public class Output
     {
-        private CurrencyCalculator _currencyConvert;
+        private readonly  ICalculate _currencyConvert;
 
-        public Output(CurrencyCalculator currencyConvert)
+        public Output(ICalculate currencyConvert)
         {
             _currencyConvert = currencyConvert;
         }
-        public decimal Result(string Currency1, string Currency2, decimal amount)
+        public decimal Result(string currency1, string currency2, decimal amount)
         {
             decimal exchangedAmount = 0;
             try
             {
-                exchangedAmount = _currencyConvert.Calculate(Currency1, Currency2, amount);
+                exchangedAmount = _currencyConvert.Calculate(currency1, currency2, amount);
             }
             catch (Exception ex)
             {
